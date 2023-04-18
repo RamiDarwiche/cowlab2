@@ -7,5 +7,7 @@ class Dragon(Cow):
         self.name = name
         self.image = image
 
-    def can_breate_fire(self):
+    # sets Dragon class as being able to breathe fire
+    @staticmethod
+    def can_breathe_fire():
         return True

@@ -6,9 +6,9 @@ class HeiferGenerator:
 
 	cow_names = ['heifer', 'kitteh']
 
-	quote_lines = '    \\\n' 
-	quote_lines += '     \\\n'
-	quote_lines += '      \\\n'
+	quote_lines = '       \\\n'
+	quote_lines += '        \\\n'
+	quote_lines += '         \\\n'
 
 	cowImages = [	"        ^__^\n" +
 					"        (oo)\\_______\n" +

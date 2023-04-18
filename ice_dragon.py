@@ -6,5 +6,8 @@ class IceDragon(Dragon):
         self.name = name
         self.image = image
 
-    def can_breate_fire(self):
+
+    # sets IceDragon class as not being able to breathe fire
+    @staticmethod
+    def can_breathe_fire():
         return False
